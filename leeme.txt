@@ -1,0 +1,16 @@
+2025-03-19 08:57:46,828 - INFO - Consulta de stock de producto formulado  se ha realizado con éxito y arrojó 10 registros.
+
+
+
+EJEMPLOS DE METODOS
+
+EJECUTO:
+Consulta Producto Formulado: Consulta_Stock_Producto_Formulado(metodo) (nroRemito ) 23476(llamada random) 2439(deposito) 4911(producto)
+
+Alta: Alta_Envio(metodo) (nroRemito ) 55567(llamada random) 2439(deposito) 4911(producto) envia(20352969053) recibe(20131427213)
+
+Consultar deposito: Consulta_Deposito(metodo) (nroRemito ) 55567(llamada random) 20-23476226-6(cuit)
+
+Consultar envio. (nroRemito ) 55567(llamadaramdon) 2439(deposito)  (operacionId) , (movimientoid)
+
+Cancelar un envio: Cancelar_Envio 12345 55567 2439 2539685 2921209

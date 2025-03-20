@@ -22,7 +22,8 @@ class DBConnection:
         self.db = config['CONEXION']['db']
         self.prt = config['CONEXION']['prt']
         self.nombreCliente = config['EMPRESA']['nombre']
-        self.token = config['TOKEN']['TOKEN']
+        self.ambiente = config['AMBIENTE']['ambiente']
+        self.encargado = config['ENCARGADOS']['encargado']
 
 
         conn = pyodbc.connect('DSN=' + self.serv + ';Database=' + self.db + ';UID=' + self.usr + ';PWD=' + self.passwd, autocommit=True)
